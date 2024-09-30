@@ -1,5 +1,5 @@
 body {
-    margin: 0 10%;
+
 }
 
 header {
@@ -7,7 +7,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     height: 100px;
-    padding: 0 5%;
+    padding: 0 10%;
     background-color: #f0f0ff;
 }
 
@@ -35,14 +35,52 @@ header ul li a {
 section {
     display: flex;
     flex-direction: row;
-    padding: 3% 5% 0;
+    padding: 3% 10% 0;
     justify-content: space-between;
 }
 
 section .left{
     align-content: center;
+    width: 50%;
+}
+
+section .left .name{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+section .left span{
+    font-weight: 500;
+}
+
+section .left .role{
+    margin-top: 8px;
+    font-size: 26px;
+}
+
+section .left p{
+    margin-top: 16px;
+}
+
+
+section .left .buttons{
+    margin-top: 5%;
+}
+
+section .left .buttons button{
+    color: #000;
+    font-weight: 700;
+    padding: 8px;
+    border-radius: 8px;
 }
 
 section .right{
+    width: 50%;
     align-content: center;
+    display: flex;
+}
+
+section .right img{
+    border-radius: 16px;
+    margin: auto;
 }
