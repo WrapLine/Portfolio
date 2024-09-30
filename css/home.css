@@ -34,9 +34,13 @@ header ul .active{
 
 header ul li a {
     text-decoration: none;
-    padding: 2px 4px;
+    padding: 4px 8px;
     font-weight: 700;
     color: var(--font-color);
+}
+
+header ul li a:hover{
+    color: var(--accent-color);
 }
 
 section {
