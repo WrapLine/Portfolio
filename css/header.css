@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0 10%;
+    background-color: var(--navigation-color);
+}
+
+header h1 {
+    font-weight: 900;
+    align-content: center;
+}
+
+header ul {
+    align-content: center;
+
+}
+
+header ul li {
+    list-style: none;
+    display: inline;
+}
+
+header ul .active{
+    color: var(--accent-color);
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 4px 8px;
+    font-weight: 700;
+    color: var(--font-color);
+}
+
+header ul li a:hover{
+    color: var(--accent-color);
+}
