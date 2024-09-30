@@ -1,3 +1,10 @@
+:root {
+    --base-color: #24292e;
+    --navigation-color:#2b3137;
+    --font-color:#fafbfc;
+    --accent-color: #2dba4e;
+}
+
 * {
     margin: 0;
     border: 0;

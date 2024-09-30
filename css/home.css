@@ -1,5 +1,7 @@
-body {
 
+body {
+    background-color: var(--base-color);
+    color: var(--font-color);
 }
 
 header {
@@ -8,7 +10,7 @@ header {
     justify-content: space-between;
     height: 100px;
     padding: 0 10%;
-    background-color: #f0f0ff;
+    background-color: var(--navigation-color);
 }
 
 header h1 {
@@ -26,10 +28,15 @@ header ul li {
     display: inline;
 }
 
+header ul .active{
+    color: var(--accent-color);
+}
+
 header ul li a {
     text-decoration: none;
     padding: 2px 4px;
     font-weight: 700;
+    color: var(--font-color);
 }
 
 section {
@@ -42,6 +49,8 @@ section {
 section .left{
     align-content: center;
     width: 50%;
+
+    padding: 0 5%;
 }
 
 section .left .name{
@@ -62,16 +71,18 @@ section .left p{
     margin-top: 16px;
 }
 
-
 section .left .buttons{
     margin-top: 5%;
 }
 
 section .left .buttons button{
-    color: #000;
     font-weight: 700;
     padding: 8px;
     border-radius: 8px;
+}
+
+section .left button .download-btn{
+    filter: invert(100%);
 }
 
 section .right{
