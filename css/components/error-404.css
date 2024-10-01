@@ -1,0 +1,29 @@
+.error-404 {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 16px;
+}
+
+.center-margin{
+    margin: auto;
+}
+
+.margin-top{
+    margin-top: 16px;
+}
+
+h1 {
+    color: var(--font-color);
+}
+
+span{
+color: var(--accent-color);
+}
+
+img {
+    fill: var(--accent-color);
+}
