@@ -1,0 +1,27 @@
+.pl-card{
+    padding: 16px;
+    margin: 8px;
+    outline: 2px solid var(--font-color);
+    border-radius: 16px;
+
+    width: 125px;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    box-shadow: 5px 10px 18px #000;
+    backdrop-filter: blur( 17px );
+    -webkit-backdrop-filter: blur( 17px );
+}
+
+.pl-card img, h4{
+    margin: auto;
+}
+
+.pl-card img {
+    width: 32px;
+    height: 32px;
+}

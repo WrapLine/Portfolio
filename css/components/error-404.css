@@ -16,14 +16,19 @@
     margin-top: 16px;
 }
 
-h1 {
+.error-font-size {
     color: var(--font-color);
+    font-size: 72px;
+}
+
+.error-font-size span{
+    font-size: 74px;
 }
 
 span{
-color: var(--accent-color);
+    color: var(--accent-color);
 }
 
 img {
-    fill: var(--accent-color);
+    filter: invert(100%);
 }
