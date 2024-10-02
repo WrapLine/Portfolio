@@ -1,3 +1,12 @@
+body{
+
+    background: url(../assests/svg/pattern/wave.svg);
+    background-color: var(--base-color);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
 section{
     display: flex;
     flex-direction: row;
@@ -7,4 +16,6 @@ section{
 
     padding: 36px 0;
     flex-wrap: wrap;
+
+
 }

@@ -13,8 +13,8 @@
     align-content: center;
 
     box-shadow: 5px 10px 18px #000;
-    /* backdrop-filter: blur( 17px );
-    -webkit-backdrop-filter: blur( 17px ); */
+    backdrop-filter: blur( 17px );
+    -webkit-backdrop-filter: blur( 17px );
 }
 
 .pl-card img, h4{
