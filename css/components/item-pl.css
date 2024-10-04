@@ -1,0 +1,12 @@
+.item-pl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+
+    padding: 4px 8px;
+    margin: 0px 8px;
+
+    outline: 2px solid var(--font-color);
+    border-radius: 16px;
+}
