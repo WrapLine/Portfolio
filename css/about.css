@@ -28,5 +28,5 @@ section h1{
     flex-direction: row;
     flex-wrap: wrap;
 
-    margin: 0 20%;
+    margin: 16px 20% 0;
 }
