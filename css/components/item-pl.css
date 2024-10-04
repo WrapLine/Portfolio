@@ -7,6 +7,8 @@
     padding: 4px 8px;
     margin: 0px 8px;
 
-    outline: 2px solid var(--font-color);
+    outline: 2px solid var(--accent-color);
     border-radius: 16px;
+
+    color: var(--accent-color);
 }
