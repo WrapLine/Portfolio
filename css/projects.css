@@ -1,45 +1,15 @@
-.item-project{
-    margin: 0 20%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-    /* background-color: var(--navigation-color); */
-    /* padding: 4px; */
-
-    margin-top: 16px;
-
-    border-radius: 16px;
-}
-
-.item-project .project{
-    display: flex;
-    flex-direction: row;
-    background-image:
-    linear-gradient(0deg, rgba(36,41,46,1) 0%, rgba(36,41,46,1) 25%, rgba(54,9,121,0.01724439775910369) 100%),
-    url('../assests/images/malupiton-2.jpg');
-
-    background-size: contain;
-    background-repeat: no-repeat;
-
-    height: 480px;
-    width: 70vw;
-    border-radius: 16px;
-
-    padding: 8px;
-
-    align-items: flex-end;
-}
-
 .project-info h4{
-    margin-bottom: 4px;
+    /* margin-bottom: 4px; */
+    margin: 0 1rem 1rem;
 }
 
 .project-info h5, .description{
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
+    margin: 0 1rem 1rem;
 }
 
 .tech-used{
+    margin: 0 1rem 1rem;
     display: flex;
     flex-direction: row;
     padding: 4px 0;
